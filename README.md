@@ -1,12 +1,36 @@
-**Spring JDBC Example**
+# Spring JDBC Demo
 
-This repository demonstrates how to use **Spring JDBC** for database operations in a Spring-based Java application. It includes configurations, DAO implementations, and examples of CRUD (Create, Read, Update, Delete) operations using `JdbcTemplate`. The project showcases:
+This repository contains a simple project demonstrating how to use **Spring JDBC** to interact with a relational database. It is ideal for beginners looking to understand database operations using Spring's `JdbcTemplate`.
 
-* Spring JDBC setup with XML or Java-based configuration
-* Integration with MySQL/PostgreSQL (or your preferred database)
-* Use of `JdbcTemplate` and `NamedParameterJdbcTemplate`
-* DAO layer design pattern
-* Exception handling using Spring's `DataAccessException`
+## 🚀 Features
 
-Ideal for developers looking to understand Spring's abstraction over JDBC and build efficient, lightweight data access layers.
+- ✅ Spring JDBC with `JdbcTemplate`
+- ✅ Basic CRUD operations (Create, Read, Update, Delete)
+- ✅ DAO layer implementation
+- ✅ Simple, modular project structure
+- ✅ Maven build support
 
+## 🛠️ Tech Stack
+
+- Java
+- Spring Framework (Spring JDBC)
+- Maven
+- MySQL (or any JDBC-compatible database)
+- IDE (IntelliJ IDEA / Eclipse)
+
+## 📂 Project Structure
+
+```bash
+spring-jdbc-demo/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/demo/
+│   │   │       ├── config/
+│   │   │       ├── dao/
+│   │   │       ├── model/
+│   │   │       └── MainApp.java
+│   │   └── resources/
+│   │       └── applicationContext.xml
+├── pom.xml
+└── README.md
